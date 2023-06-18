@@ -1,6 +1,6 @@
 # CyberCell-CDR-Management
 
-# Uploading and Searching Project
+# Uploading and Searching Project (Large datafiles like CDR)
 
 This project allows users to upload Excel and CSV files, create databases, and perform searches within the databases. It provides a web interface for easy interaction with the functionality.
 
