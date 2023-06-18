@@ -1,0 +1,37 @@
+.nav2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(206, 247, 247);
+    width:100%;
+  }
+  .bbutton {
+    position: relative;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #6df771;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  
+  }
+  
+  .bbutton:hover {
+    background-color: #45a049;
+  }
+ 
+  .back-button {
+    position: relative;
+    text-align: left;
+    background-color: rgb(206, 247, 247)00;
+  
+  }
+  h1{
+    text-align: center;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+  }
+  

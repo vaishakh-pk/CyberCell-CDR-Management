@@ -1,0 +1,164 @@
+h2{
+    text-align: center;
+  }
+  .nav{
+    padding: 30px 30px;
+    text-align: center;
+    background-color: rgb(206, 247, 247);
+  }
+  
+  button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #6df771;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .upload-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  #file-input {
+    display: none;
+  }
+  
+  .upload-button {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+  }
+  
+  #file-name {
+    margin-left: 10px;
+  }
+  
+  .database-button{
+    padding: 10px 10px;
+  }
+  .options{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 20px;
+    padding-left: 20px;
+    
+  }
+  
+  html, body {
+    height: 70%;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  .container {
+    display: flex;
+    height: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  
+  .left-component {
+    flex: 1;
+    background-color: #f2f2f2;
+    
+  }
+  
+  .right-component {
+    flex: 1;
+    background-color: #ccc;
+  }
+  .bottom-div{
+    height:100px;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .bottom-component{
+    text-align: center;
+    flex:1;
+    background-color: #ffffff;
+    height: 100%;
+    
+  }
+  .search-container {
+    position: relative;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .search-input {
+    width: 300px;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  #database-dropdown {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #45a049;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  #database-dropdown:focus {
+    outline: none;
+    border-color: #ffffff;
+  }
+  
+  #database-dropdown option {
+    font-size: 14px;
+  }
+  #search-input {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+  }
+  
+  #search-button {
+    padding: 8px 16px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    background-color: #45a049;
+    color: white;
+    cursor: pointer;
+  }
+  
+  #search-button:hover {
+    background-color: #4CAF50;
+  }

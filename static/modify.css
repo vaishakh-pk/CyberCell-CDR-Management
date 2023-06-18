@@ -1,0 +1,106 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Body styles */
+body {
+  background-color: #f5f5f5;
+  padding-top: 10px;
+}
+
+/* Heading styles - 'Database Management' */
+h1 {
+  background-color: rgb(206, 247, 247);
+  color: #000000;
+  padding: 0px;
+  text-align: center;
+  
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.database-info {
+  display: flex;
+  align-items: center;
+  background-color:  #ccc;
+  padding: 20px 20px;
+  border-radius: 60px;
+}
+
+.database-name {
+  flex-grow: 1;
+}
+
+.button-container {
+  margin-left: 10px;
+  display: flex;
+}
+
+.rename-submit-button {
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  margin-right: 5px;
+}
+.delete-button {
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+.delete-button {
+  background-color: #f44336;
+}
+.back-button {
+  position: relative;
+  text-align: left;
+  background-color: rgb(206, 247, 247)00;
+
+}
+.nav{
+  padding: 15px 15px;
+  background-color: rgb(206, 247, 247);
+}
+.bbutton {
+  position: relative;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #6df771;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+
+.bbutton:hover {
+  background-color: #45a049;
+}
+.main{
+  padding-top: 10px;
+}
